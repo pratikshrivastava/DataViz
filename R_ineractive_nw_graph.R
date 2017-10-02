@@ -10,7 +10,7 @@ setwd('D:\\Study\\UIUC\\MSIM\\COURSES\\FAll2017\\IS590-DataViz\\script\\DataViz\
 edges <- read.csv('datafiles\\r_data_nw_92917\\pokemon_edges.csv' , header = TRUE, as.is = T)
 nodes <- read.csv('datafiles\\r_data_nw_92917\\pokemon_nodes.csv' , header = TRUE, as.is = T)
 
-View(edges)
+#View(edges)
 
 ## different # of ids. 
 unique(nodes$id.type)

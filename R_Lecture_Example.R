@@ -8,8 +8,8 @@ setwd('D:\\Study\\UIUC\\MSIM\\COURSES\\FAll2017\\IS590-DataViz\\script\\DataViz\
 d_edges <- read.csv('datafiles\\r_data_nw_92917\\DisneyRidesYear_Edges.csv' , header = TRUE, as.is = T)
 d_nodes <- read.csv('datafiles\\r_data_nw_92917\\DisneyRidesYear_Nodes.csv' , header = TRUE, as.is = T)
 
-View(d_nodes)
-class(d_nodes)
+#View(d_nodes)
+#class(d_nodes)
 
 # p_edges <- read.csv('datafiles\\r_data_nw_92917\\pokemon_edges.csv' , header = TRUE)
 # p_nodes <- read.csv('datafiles\\r_data_nw_92917\\pokemon_nodes.csv' , header = TRUE)
@@ -50,4 +50,5 @@ plot(disnet)
 
 plot(disnet, edge.color="black", edge.curved=0, layout=layout.circle, 
      main="Rides in Magic Kingdom")
+
 
